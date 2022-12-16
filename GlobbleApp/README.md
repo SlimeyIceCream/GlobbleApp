@@ -1,2 +1,0 @@
-# GlobbleApp
-GlobbleApp
