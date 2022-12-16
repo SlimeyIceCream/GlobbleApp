@@ -5,18 +5,14 @@ h1 {
     margin-top: auto;
 }
 .background {
-<<<<<<< HEAD
-    background: linear-gradient(180deg, white, burlywood, white);
+    background: linear-gradient(180deg, white, rgb(1, 0, 20), white);
     margin: auto;
-=======
-    background-color: MintCream;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 .background2 {
     background-color: black;
->>>>>>> 1247c24db4137811f0f95c9f43995784af71cb13
 }
 .maindiv {
     font-size: 30px;
