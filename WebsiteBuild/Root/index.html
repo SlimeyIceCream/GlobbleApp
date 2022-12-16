@@ -11,6 +11,7 @@
         <div class="center maindiv">
             <main>
                 <h1>Globble</h1>
+                <h3>Server launching Jan 21, 2023, 4:15PM</h3>
             <div class="">
                 <div>
                     
@@ -23,28 +24,29 @@
                     (This website is still in beta expect bugs and outages)<br>
                     :)
                 </p>
+                
             </main>
             <div class="">
                 <div class="launch-time">
                     <div>
-                        <p>00</p>
+                        <p id="days">00</p>
                         <span>Days</span>
                     </div>
                     <div>
-                        <p>00</p>
+                        <p id="hours">00</p>
                         <span>Hours</span>
                     </div>
                     <div>
-                        <p>00</p>
+                        <p id="minutes">00</p>
                         <span>Minutes</span>
                     </div>
                     <div>
-                        <p>00</p>
+                        <p id="seconds">00</p>
                         <span>Seconds</span>
                     </div>
                 </div>
                 <script>
-                    var countDownDate = new Date("Jan 21, 2023 00:00:00").getTime();
+                    var countDownDate = new Date("Jan 21, 2023 10:00:00").getTime();
                     var x = setInterval(function(){
                         var now = new Date().getTime();
                         var distance = countDownDate - now;
@@ -54,6 +56,12 @@
                     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    
+                    document.getElementsById("days").innerHTML = days;
+                    document.getElementsById("hours").innerHTML = hours;
+                    document.getElementsById("minutes").innerHTML = minutes;
+                    document.getElementsById("seconds").innerHTML = seconds;
+                    
                 </script>
             </div>
             <div>
