@@ -2,7 +2,8 @@
     text-align: center;
 }
 .background {
-    background-color: burlywood;
+    background: linear-gradient(180deg, white, burlywood, white);
+    margin: auto;
 }
 .maindiv {
     font-size: 25px;
