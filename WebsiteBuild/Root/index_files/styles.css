@@ -7,3 +7,9 @@
 .maindiv {
     font-size: 25px;
 }
+.container {
+  margin-top: -10px;
+  margin-bottom: 15px;
+  background-color: rgb(0, 0, 0);
+  padding: 15px 0;
+}
