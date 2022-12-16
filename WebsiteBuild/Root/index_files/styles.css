@@ -1,4 +1,6 @@
-.center {
+* 
+{
+    box-sizing: border-box;
     text-align: center;
 }
 h1 {
