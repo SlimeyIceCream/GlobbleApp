@@ -5,6 +5,9 @@
 h1 {
     margin-top: auto;
 }
+.marginbot {
+    margin-bottom: -30x
+}
 .background {
     margin: auto;
     background-color: azure;
@@ -12,11 +15,23 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
-buttonstyle{
-    font-size: 200%;
-    margin-top: -50px;
-    outline-: 50px;
-    padding: 50px
+.form1{
+    display: block;
+    margin-left: 1px;
+    margin-bottom: =50px;
+}
+.buttoncontainer{
+    margin-left: 800px;
+    margin-left: 800px;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 50px;
+    padding: 10px 0; 
+}
+.buttonstyle{
+    outline: 50px;
+    width: 50px;
+    height: 50px;
     outline-color: black;
 }
 .background2 {
