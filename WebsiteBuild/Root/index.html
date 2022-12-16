@@ -11,7 +11,7 @@
         <div class="center maindiv">
             <main>
                 <h1>Globble</h1>
-            <div class="container">
+            <div class="">
                 <div>
                     
                 </div>
@@ -24,10 +24,37 @@
                     :)
                 </p>
             </main>
-            <div class="container">
-                <div>
-                    
+            <div class="">
+                <div class="launch-time">
+                    <div>
+                        <p>00</p>
+                        <span>Days</span>
+                    </div>
+                    <div>
+                        <p>00</p>
+                        <span>Hours</span>
+                    </div>
+                    <div>
+                        <p>00</p>
+                        <span>Minutes</span>
+                    </div>
+                    <div>
+                        <p>00</p>
+                        <span>Seconds</span>
+                    </div>
                 </div>
+                <script>
+                    var countDownDate = new Date("Jan 21, 2023 00:00:00").getTime();
+                    var x = setInterval(function(){
+                        var now = new Date().getTime();
+                        var distance = countDownDate - now;
+                    },1000);
+                    
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                </script>
             </div>
             <div>
                 
